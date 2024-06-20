@@ -15,19 +15,19 @@ a {
 }
 
 .gradient__bg {
-  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(8, 22, 44) 25%);
 
   /* safari 5.1+,chrome 10+ */
-  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(8, 22, 44) 25%);
 
   /* opera 11.10+ */
-  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(8, 22, 44) 25%);
 
   /* ie 10+ */
-  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(8, 22, 44) 25%);
 
   /* global 92%+ browsers support */
-  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgb(8, 22, 44) 25%);
 }
 
 .gradient__text {
@@ -38,7 +38,7 @@ a {
 }
 
 .section__padding {
-  margin: 4rem 6rem;
+  padding: 4rem 6rem;
 }
 
 .section__margin {
@@ -83,11 +83,11 @@ a {
 }
 
 @media screen and (max-width: 550px) {
-  .section__padding{
-    padding:4rem 2rem;
+  .section__padding {
+    padding: 4rem 2rem;
   }
 
-  .section_margin {
+  .section__margin {
     margin: 4rem 2rem;
   }
 }
